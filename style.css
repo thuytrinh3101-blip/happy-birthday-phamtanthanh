@@ -1,21 +1,17 @@
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #070000;
+    background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
     font-family: 'Nunito', sans-serif;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-image:
-        radial-gradient(circle at 15% 85%, #adadad 0%, transparent 40%),
-        radial-gradient(circle at 85% 15%, #aaaaaa 0%, transparent 40%),
-        radial-gradient(circle at 50% 50%, #f7f7f7 0%, transparent 60%);
 }
 
 /* Floating hearts background */
@@ -29,7 +25,7 @@ body {
 
 .hearts-bg::before,
 .hearts-bg::after {
-    content: '🍻🐻‍❄️';
+    content: '🤍';
     position: absolute;
     font-size: 1.5rem;
     opacity: 0.15;
@@ -42,7 +38,7 @@ body {
 .hearts-bg::after {
     animation-delay: 6s;
     left: 60%;
-    content: '🍻🐻‍❄️';
+    content: '🤍';
 }
 
 @keyframes floatHearts {
@@ -59,7 +55,7 @@ body {
 
 h1 {
     font-size: 2.4rem;
-    color: #f31616;
+    color: #334155;
     font-weight: 900;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(214, 51, 132, 0.2);
@@ -140,7 +136,7 @@ h1 {
 #tease-toast {
     margin-top: 14px;
     font-size: 1rem;
-    color: #d63333;
+    color: #274c77;
     font-weight: 700;
     font-style: italic;
     opacity: 0;
@@ -203,3 +199,4 @@ h1 {
 .yes-container #cat-gif {
     width: 260px;
     height: 260px;
+}
