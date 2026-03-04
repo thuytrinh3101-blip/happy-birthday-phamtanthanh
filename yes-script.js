@@ -15,7 +15,7 @@ function launchConfetti() {
     const colors = ['#ff69b4', '#ff1493', '#ff85a2', '#ffb3c1', '#ff0000', '#ff6347', '#fff', '#ffdf00']
     const duration = 6000
     const end = Date.now() + duration
-
+    
     // Initial big burst
     confetti({
         particleCount: 150,
